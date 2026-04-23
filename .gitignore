@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pt
+venv/
+vlm_env/
+output_annotated.mp4
+.cache/

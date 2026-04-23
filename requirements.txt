@@ -1,0 +1,28 @@
+# ============================================================
+# AI Blind Navigation System — Dependencies
+# ============================================================
+# Install: pip install -r requirements.txt
+#
+# NOTE: If you already have CUDA PyTorch (Colab, conda),
+# do NOT reinstall torch — it may overwrite with CPU version.
+# ============================================================
+
+# Core
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# YOLO
+ultralytics>=8.0.0
+
+# VLM (Moondream2 int8)
+transformers==4.44.2
+accelerate>=0.25.0
+einops>=0.7.0
+bitsandbytes>=0.41.0
+
+# Audio
+pyttsx3>=2.90
+
+# Optional
+matplotlib>=3.7.0
